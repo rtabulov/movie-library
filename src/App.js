@@ -24,7 +24,7 @@ const App = () => {
     setMovies([]);
 
     axios
-      .get('http://www.omdbapi.com/', {
+      .get('https://www.omdbapi.com/', {
         params: {
           apikey: omdbKey,
           s: query,
