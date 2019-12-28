@@ -17,7 +17,7 @@ const App = () => {
   const [movies, setMovies] = useState([]);
   const [errorMessage, setErrorMessage] = useState('');
 
-  const [query, setQuery] = useState('spider-man');
+  const [query, setQuery] = useState('man');
 
   useEffect(() => {
     setStatus('loading');
